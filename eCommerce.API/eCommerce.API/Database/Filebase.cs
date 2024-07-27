@@ -91,10 +91,24 @@ namespace eCommerce.API.Database
 
         public Product Delete(int id)
         {
-          
+
+            // implement delete
             throw new NotImplementedException();
-            
+
         }
+
+        /* public bool Delete(int id)
+         {
+             var path = $"{_root}\\{id}.json";
+
+             //if the item has been previously persisted
+             if (File.Exists(path))
+             {
+                 //blow it up
+                 File.Delete(path);
+             }
+             return true;
+         }*/
     }
 
 }

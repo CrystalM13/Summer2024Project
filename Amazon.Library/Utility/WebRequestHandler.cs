@@ -10,7 +10,7 @@ namespace Amazon.Library.Utilities
     public class WebRequestHandler
     {
         private string host = "localhost";
-        private string port = "7244";
+        private string port = "7245";
         private HttpClient Client { get; }
         public WebRequestHandler()
         {
